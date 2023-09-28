@@ -1,0 +1,18 @@
+
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: '';
+  display: block;
+  width: 10px; /* Adjust the width of the bullet as needed */
+  height: 10px; /* Adjust the height of the bullet as needed */
+  background-color: green;
+  position: absolute;
+  bottom: -15px; /* Adjust the distance from the text to the bullet as needed */
+  left: 30%;
+  transform: translateX(-50%);
+  border-radius: 50%; /* Makes it a circle */
+}
