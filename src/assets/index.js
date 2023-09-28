@@ -7,6 +7,11 @@ import perfumeSite from './perfume-site.png';
 import skinSite from './skin-site.png';
 import snailia from './snailia.png';
 import treatyFruity from './treaty-fruity.png';
+import wix from './wix_logo.png'
+import fitness from './fitness.png'
+import furniture from './furniture.png'
+import lifestyle from './lifestyle.png'
+import service from './service.png'
 
 export {
   brands,
@@ -17,5 +22,10 @@ export {
   perfumeSite,
   skinSite,
   snailia,
-  treatyFruity
+  treatyFruity,
+  wix,
+  fitness,
+  lifestyle,
+  service,
+  furniture
 }
